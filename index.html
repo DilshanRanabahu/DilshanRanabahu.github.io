@@ -3,46 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dilshan Tec</title>
-  <meta name="description" content="Dilshan Tec builds simple AI-powered tools for learning and everyday tasks.">
+  <title>Dilshan Tec – AI assistant on WhatsApp</title>
+  <meta name="description" content="Dilshan Tec builds simple AI-powered tools for learning and everyday tasks, in Sinhala and English.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <a class="logo" href="index.html">Dilshan Tec</a>
-      <div>
-        <a href="index.html">Home</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
+    <nav class="container">
+      <a class="logo" href="index.html"><span class="logo-mark">D</span> Dilshan Tec</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="privacy-policy.html">Privacy</a>
       </div>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Dilshan Tec</h1>
-      <p>Simple AI-powered tools for learning and everyday tasks, in Sinhala and English.</p>
+      <div class="container hero-grid">
+        <div>
+          <span class="badge"><span class="dot"></span> AI assistant · Sinhala &amp; English</span>
+          <h1>Your friendly <span class="gradient-text">AI helper</span>, right inside WhatsApp</h1>
+          <p class="lead">Ask questions, get study help and learn new things, all in a simple chat. Write in Sinhala, Singlish or English and get a quick, clear reply.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#how">See how it works</a>
+            <a class="btn btn-ghost" href="#features">Explore features</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>3</strong><span>ways to write</span></div>
+            <div><strong>0</strong><span>apps to install</span></div>
+            <div><strong>Seconds</strong><span>to reply</span></div>
+          </div>
+        </div>
+
+        <div class="phone" aria-label="Example chat with the assistant">
+          <div class="phone-screen">
+            <div class="chat-header">
+              <span class="avatar">D</span>
+              <div><strong>Dilshan Tec Assistant</strong><small>online</small></div>
+            </div>
+            <div class="chat-body">
+              <div class="bubble out">Python wala list ekak hadanne kohomada?</div>
+              <div class="bubble in">Python වල list එකක් හදන්න square brackets පාවිච්චි කරන්න 👇<code>fruits = ["apple", "mango"]</code></div>
+              <div class="bubble out">Ela! Thank you 🙏</div>
+              <div class="bubble in">සතුටුයි! තව මොනවා හරි ඕනේද? 😊</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="cards">
-      <div class="card">
-        <h2>WhatsApp assistant</h2>
-        <p>Chat with a friendly AI helper on WhatsApp. Send a message and get a quick reply.</p>
+    <section class="block alt" id="features">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Features</span>
+          <h2>Everything you need in one chat</h2>
+          <p>No new app to install. Just send a message and start learning.</p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <div class="icon">💬</div>
+            <h3>Speaks your language</h3>
+            <p>Write in Sinhala, Singlish or English. The assistant replies in the language you use.</p>
+          </div>
+          <div class="feature">
+            <div class="icon">📚</div>
+            <h3>Help with learning</h3>
+            <p>Study topics, technology and general questions, explained simply with examples.</p>
+          </div>
+          <div class="feature">
+            <div class="icon">⚡</div>
+            <h3>Fast replies</h3>
+            <p>Get a helpful answer in seconds, right in your chat.</p>
+          </div>
+          <div class="feature">
+            <div class="icon">🔒</div>
+            <h3>Privacy first</h3>
+            <p>No permanent chat history. Send <strong>/reset</strong> any time to clear the conversation.</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h2>Sinhala &amp; English</h2>
-        <p>Write in Sinhala, Singlish or English. The assistant replies in the language you use.</p>
+    </section>
+
+    <section class="block" id="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2>Start chatting in three steps</h2>
+          <p>It works just like messaging a friend.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <h3>Send a message</h3>
+            <p>Open WhatsApp and send your question to the Dilshan Tec assistant.</p>
+          </div>
+          <div class="step">
+            <h3>AI thinks it through</h3>
+            <p>The assistant understands your question and writes a clear, friendly answer.</p>
+          </div>
+          <div class="step">
+            <h3>Get your reply</h3>
+            <p>The answer arrives in your chat. Ask follow-up questions to learn more.</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h2>Help with learning</h2>
-        <p>Ask about study topics, technology and general information, explained simply.</p>
+    </section>
+
+    <section class="block" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta">
+          <h2>Questions or feedback?</h2>
+          <p>We'd love to hear from you. Send us an email any time.</p>
+          <a class="btn" href="mailto:praveendilshanr@gmail.com">praveendilshanr@gmail.com</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>Contact: <a href="mailto:praveendilshanr@gmail.com">praveendilshanr@gmail.com</a></p>
-    <p>&copy; 2026 Dilshan Tec &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
+    <div class="container footer-row">
+      <span>&copy; 2026 Dilshan Tec. All rights reserved.</span>
+      <span>
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="mailto:praveendilshanr@gmail.com">Contact</a>
+      </span>
+    </div>
   </footer>
 </body>
 </html>
